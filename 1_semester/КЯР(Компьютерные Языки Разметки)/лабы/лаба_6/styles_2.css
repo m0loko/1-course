@@ -1,0 +1,22 @@
+p{
+    text-indent: 30px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+ }
+.img1{
+width:600px;
+height:400px;           
+float: left;
+margin-right:10px;
+} 
+.img2{
+width:600px;
+height:400px;           
+float: right;
+margin-left: 10px;
+margin-top: 50px;
+} 
+.p3{
+ clear: left;
+}      

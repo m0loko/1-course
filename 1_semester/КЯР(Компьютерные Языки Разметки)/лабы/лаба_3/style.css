@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Carveat';
+    src: url('fonts/Caveat.woff') format('woff'),
+         url('fonts/Caveat.ttf') format('truetype'),
+         url('fonts/Caveat.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('fonts/Exo2.woff') format('woff'),
+         url('fonts/Exo2.ttf') format('truetype'),
+         url('fonts/Exo2.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa.woff') format('woff'),
+         url('fonts/Comfortaa.ttf') format('truetype'),
+         url('fonts/Comfortaa.svg') format('svg');
+}
+
+h1 {
+    font-family: 'Carveat';
+    margin-bottom: 0; 
+    text-align: center; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 45px; 
+    text-shadow: 2px 2px 2px; 
+}
+
+h2 {
+    font-family: 'Exo2';
+    margin-bottom: 1.2em;
+    margin-top: 0.2rem;
+    text-indent: 25px;
+    text-align: left;
+}
+
+p {
+    font-family: 'Comfortaa';
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 20px; 
+    line-height: 200%;
+    margin: 0;
+}
+
+p:first-letter {
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    background-color: hsla(275, 100%, 10%, 1);
+}
+
+.oll {
+    margin-bottom: 0px;
+}
+
+ol {
+    font-family: 'Exo2';
+    font-size: 20px;
+}
+
+li {
+    counter-increment: item; 
+    list-style-type: none;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+ol li:before {
+    content: counter(item, upper-roman)". ";
+    color: blue;
+}
+
+.last:first-line { 
+    color: red;
+    text-indent: 25px;
+}

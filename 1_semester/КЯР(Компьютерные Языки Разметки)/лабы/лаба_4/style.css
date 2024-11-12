@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+    margin-top: 40px; /* увеличил для нормального отображения */
+}
+
+.letter {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px; 
+    font-size: 24px;
+    text-align: center;
+}
+p{
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+#one {
+    width: 400px;
+    text-align: center;
+    border: 5px solid #FF7F50;
+}
+#two {
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    box-shadow: inset 2px 2px 8px 8px rgba(0, 0, 0, 0.5); 
+    overflow: auto;
+}
+
+#three {
+    border: 5px solid #FF6347;
+}
+
+span {
+    display: inline-block;
+    color: blue;
+    background-color: #FFA500;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #FF4500;
+}

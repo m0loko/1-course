@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация постоянного клиента</title>
+    <style>
+        form {
+            width: 600px;
+            background-color: indigo;
+            padding: 20px;
+            margin: 0 auto;
+            color: white;
+            font-size: 1.2em;
+        }
+        input[type="text"],input[type="email"] {
+            border-radius: 5px;
+            height: 25px;
+            background-color: rgba(255, 255, 255, .5);
+            border: none;
+            color: rgba(255, 255, 255, 1);
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+            width: 250px;
+        }
+        input{
+          align-items:right;
+        }
+        input[type="button"]{
+            background-color: navy;
+            box-shadow: 0 0 4px white;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        input[type="text"]:focus {
+            background-color: white;
+            color: black;
+        }
+        label{
+            display: inline-block;
+            width: 200px;
+            text-align: left;
+            margin-right: 100px;
+        }
+        .button_group{
+            text-align: right;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+    <h1>Регистрация постоянного клиента</h1>
+    <p>
+        <label for="lastname">Фамилия:</label>
+        <input type="text" name="lastname" required>
+    </p>
+    <p>
+        <label for="firstname">Имя:</label>
+        <input type="text" name="firstname" required>
+    </p>
+    <p>
+        <label for="middlename">Отчество:</label>
+        <input type="text" name="middlename">
+    </p>
+    <p>
+        <label for="age">Ваш возраст:</label>
+        <input type="text" name="age" required>
+    </p>
+    <p>
+        <label for="male">Пол:</label>
+            <input type="checkbox" name="gender" value="male"/> мужской
+            <input type="checkbox" name="gender" value="female"/> женский
+          
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </p>
+    <p>
+        <label for="country">Страна проживания:</label>
+        <input type="text" id="country" name="country" required>
+    </p>
+    <p>
+        <label for="source">Откуда вы узнали о нас?</label>
+        <select name="source" required>
+            <option value="1">Выберите вариант</option>
+            <option value="friends">От знакомых</option>
+            <option value="ads">Из рекламы</option>
+            <option value="other">Из других источников</option>
+        </select>
+    </p>
+    <p>
+        <label for="date">Дата заполнения:</label>
+        <input type="date" name="date" required>
+    </p>
+    <p  class="button_group">
+        <input type="button" value="Регистрация"> 
+        <input type="button" value="Отмена">
+    </p>
+</form>
+
+</body>
+</html>
