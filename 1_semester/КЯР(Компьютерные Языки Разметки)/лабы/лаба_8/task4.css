@@ -1,0 +1,47 @@
+  .menu{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	grid-gap: 30px;
+	list-style: none;  
+	justify-content: center;
+  }
+  .menu li a{
+	width: 150px;
+	max-width: 100%;
+	height: 30px;
+	border: 1px solid #000;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+  }
+  
+  .menu > li > a{
+	background: url(img/facultet.png) no-repeat;
+  }
+  .menu > li:nth-child(2):hover > a{
+	background-position: top -30px left;
+  }
+  .menu > li:nth-child(3):hover > a{
+	background-position: bottom left;
+  }
+  .menu > li:last-child:hover > a{
+	background-position: top -60px left;
+  }
+  .menu > li:nth-child(2):hover > a + ul{
+	display: block;
+  }
+  .menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	display: none;
+  }
+  .menu ul a{
+	border-top: none;
+  }
