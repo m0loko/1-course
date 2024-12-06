@@ -1,0 +1,10 @@
+*.cpp linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.pdf linguist-vendored
+*.docx linguist-detectable=true
+*.rtf linguist-vendored
+*.doc linguist-vendored
+*.odt linguist-vendored
+*.pptx linguist-vendored
+*.xlsx linguist-vendored
