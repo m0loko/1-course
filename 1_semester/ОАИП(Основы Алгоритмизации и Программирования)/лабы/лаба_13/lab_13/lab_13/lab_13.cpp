@@ -1,87 +1,32 @@
 #include <iostream>
-#include <fstream>
 #include <string>
-#include <thread> // Для задержки
-#include <chrono> // Для анимации
-
+#include <vector>
+#include <algorithm>
 using namespace std;
-
-// Приветственная анимация
-void welcomeAnimation() {
-    cout << "---------------------------" << endl;
-    cout << "|   Добро пожаловать!     |" << endl;
-    cout << "---------------------------" << endl;
-    this_thread::sleep_for(chrono::milliseconds(500));
-    for (int i = 0; i < 3; i++) {
-        cout << ".";
-        this_thread::sleep_for(chrono::milliseconds(500));
-    }
-    cout << endl << "Загрузка завершена!" << endl;
+string reverseWord(const string& word) {
+    string reversed = word;
+    reverse(reversed.begin(), reversed.end());
+    return reversed;
 }
-
-// Главное меню
-void mainMenu() {
-    cout << "\n=== Главное меню ===" << endl;
-    cout << "1. Ввести данные вручную" << endl;
-    cout << "2. Загрузить данные из файла" << endl;
-    cout << "3. Выйти из программы" << endl;
-    cout << "Выберите действие: ";
-}
-
-// Обработка ввода данных вручную
-void manualInput() {
-    string data;
-    cout << "Введите данные вручную: ";
-    cin.ignore();
-    getline(cin, data);
-    cout << "Вы ввели: " << data << endl;
-}
-
-// Парсер данных из файла
-void fileParser() {
-    string filename;
-    cout << "Введите имя файла: ";
-    cin >> filename;
-
-    ifstream file(filename);
-    if (file.is_open()) {
-        string line;
-        cout << "Данные из файла:\n";
-        while (getline(file, line)) {
-            cout << line << endl;
-        }
-        file.close();
-    }
-    else {
-        cout << "Ошибка: файл не найден!" << endl;
-    }
-}
-
-// Основная программа
 int main() {
-    setlocale(LC_ALL, "ru");
-    welcomeAnimation(); // Приветственная анимация
+    string sentence;
+    cout << "Enter a sentence: ";
+    getline(cin, sentence);
+    vector<string> words;
+    size_t start = 0, end;
+    while ((end = sentence.find(' ', start)) != string::npos) {
+        words.push_back(sentence.substr(start, end - start));
+        start = end + 1;
+    }
+    words.push_back(sentence.substr(start)); 
+    string result = "";
 
-    while (true) {
-        mainMenu();
-        int choice;
-        cin >> choice;
-
-        switch (choice) {
-        case 1:
-            manualInput();
-            break;
-        case 2:
-            fileParser();
-            break;
-        case 3:
-            cout << "Выход из программы. До свидания!" << endl;
-            return 0;
-        default:
-            cout << "Ошибка: неверный ввод. Попробуйте снова." << endl;
-            system("cls");
+    // Обрабатываем слова
+    for (size_t i = 0; i < words.size(); ++i) {
+        if (i % 2 == 1) {
+            result += reverseWord(words[i]) + " ";
         }
     }
-
+    cout << "Edited sentence: " << result << endl;
     return 0;
 }
