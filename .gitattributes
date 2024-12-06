@@ -1,6 +1,7 @@
 *.cpp linguist-detectable=true
 *.html linguist-detectable=true
 *.css linguist-detectable=true
+*.c linguist-detectable=true
 *.pdf linguist-vendored
 *.docx linguist-detectable=true
 *.rtf linguist-vendored
