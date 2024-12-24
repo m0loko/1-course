@@ -1,0 +1,51 @@
+		.columns{
+			border: 2px solid rgb(0, 0, 0);
+			text-align: center;
+			color:rgb(0, 0, 0);
+			background-color: #db9c9c;
+		}	
+		.row1{
+			height: 70px;
+			margin-top: 10px;
+			margin-left: 90px;
+		}
+		.row2{
+			height: 35px;
+			font-weight: bold;
+		}
+		.row3{
+			height: 200px;
+		}
+		.row1 div{
+			border:none;
+			background-color: white;
+			height: 70px;
+		}
+		.row2 div{
+			height: 30px;
+		}
+		.row3 div{
+			height: 340px;
+		}
+		img{
+			width: 100px;
+			height: 60px;
+		}
+        li
+        {
+            display: inline-block;
+            margin: 0;
+        }
+        a
+        {
+            display: inline-block; 
+            padding: 20px;
+            text-decoration: none;
+            border: 1px solid rgb(0, 0, 0);
+			background-color: rgba(255, 191, 250, 0.433);
+			color:black;
+        }
+		.h{
+			height: 250px;
+		}
+			

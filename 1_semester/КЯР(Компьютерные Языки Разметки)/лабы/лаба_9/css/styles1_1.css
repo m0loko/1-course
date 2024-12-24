@@ -1,0 +1,43 @@
+.maket{
+	display: grid;
+	grid-template-columns: 5fr 5fr 1fr;
+	grid-template-rows: repeat(2, 48vh); 
+	grid-template-areas: 
+		"ach1 ach2 zag"
+		"ach1 ach3 zag";
+	column-gap: 15px;
+	row-gap: 15px;
+}
+.zag{
+	grid-area: zag;
+	background-color: rgb(17, 105, 134);
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ach1{
+	grid-area: ach1;
+	background-color: rgb(196, 74, 74);
+}
+.ach2{
+	grid-area: ach2;
+	background-color: orange;
+}
+.ach3{
+	grid-area: ach3;
+	background-color: yellow;
+}
+.nice{
+	border-radius: 5px;
+	border: 2px solid black;
+	font-size:40px;
+}
+.vr{
+	vertical-align: top;
+	padding: 5px;
+	border: 2px solid black;
+	font-size:35px;
+	border-radius: 5px;
+}

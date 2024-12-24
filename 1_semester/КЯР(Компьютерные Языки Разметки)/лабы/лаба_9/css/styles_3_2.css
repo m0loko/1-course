@@ -1,0 +1,60 @@
+.maket {
+	display: grid;
+	grid-template-columns: 1fr 10fr 4fr;
+	grid-template-rows: 12vh 70vh 10vh; 
+	grid-template-areas:
+		"header header header"
+		"nav content content_aside"
+		"content_footer content_footer content_footer"; 
+	gap: 10px; 
+	font-size: 25px;
+	text-align: center;
+}
+
+.nav {
+	grid-area: nav;
+	background-color: rgb(17, 105, 134);
+	display: flex; 
+	align-items: center;
+    justify-content: center; 
+}
+
+header {
+	grid-area: header;
+	background-color: lightgray;
+	text-align: center;
+}
+
+.content {
+	grid-area: content;
+	background-color: rgb(196, 74, 74);
+	
+}
+
+.content_aside {
+	grid-area: content_aside;
+	background-color: orange;
+}
+
+.content_footer {
+	grid-area: content_footer;
+	background-color: lightgreen;
+}
+ul {
+	list-style: none; 
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+li {
+	padding: 5px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.content_aside p{
+	padding: 1px;
+}
