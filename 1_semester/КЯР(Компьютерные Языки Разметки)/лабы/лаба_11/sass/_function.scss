@@ -1,0 +1,13 @@
+$hover_t: rgb(253, 253, 253);
+$hover:  rgb(253, 253, 253);
+@function text_size(){
+    @return 150%;
+}
+@function hover($i){
+    @if($i==1){
+        @return $hover_t;
+    }
+    @else{
+        @return $hover;
+    }
+}

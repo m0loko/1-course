@@ -1,0 +1,15 @@
+footer {
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), color-stop(#cce7ff), to(#1e90ff));
+  background: linear-gradient(to right, #ffffff, #cce7ff, #1e90ff);
+  padding-left: 5px;
+  margin-top: 5px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  color: rgb(216, 21, 21);
+  background-size: cover;
+  height: auto;
+}
+footer h4 {
+  margin: 2px;
+}

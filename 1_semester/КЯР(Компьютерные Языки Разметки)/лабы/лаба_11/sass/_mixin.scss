@@ -1,0 +1,14 @@
+@mixin flex{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+%forh{
+    color:red;
+    padding-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    flex: 0 1 100%;
+    border: 1px solid black;
+}

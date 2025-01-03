@@ -1,47 +1,46 @@
-<!DOCTYPE html>
+ 	<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/vse.css">
-    <link rel="stylesheet" href="../css/aside.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/text.css">
-    <title>~~~~~</title>
+	<link rel="stylesheet" href="./css/aside.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" href="./css/nav.css">
+	<link rel="stylesheet" href="./css/text.css">
+	<link rel="stylesheet" href="./css/main.css">
+    <title>новый год</title>
 </head>
 <body>
     <div class="flex-container">
         <nav>
-            <input type="checkbox" id="links">
-            <label for="links"><img src="/img/fit_ligo.png" alt=""></label>
-            <ul>
-                <li><a class="a-1" href="">~~~~~</a></li>
-                <li><a class="a-2" href="">~~~~~</a></li>
-                <li><a class="a-3" href="">~~~~~</a></li>
-                <li><a class="a-4" href="">~~~~~</a></li>
-            </ul>
+				<input type="checkbox" id="links">
+				<label for="links"><img src="/img/logo.png" alt=""></label>
+				<ul>
+					<li><a class="a-1" href="#whoami">Кто я?</a></li>
+					<li><a class="a-2" href="#photo">Фото</a></li>
+					<li><a class="a-3" href="#sv">Связь</a></li>
+					<li><a class="a-4" href="#os">Инфо</a></li>
+				</ul>
         </nav>
         <main>
-            <section class="text_part">
-                <h2>~~~~~ ~~~~~</h2>
-                <p>~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~</p>
-                <p>~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~</p>
-                <p>~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~~</p>
+            <section class="text_part"id="whoami">
+                <h2>Кто я такой?</h2>
+                <p>Здравствуй, дорогой друг! Это я — Дед Мороз! Прямо сейчас я нахожусь в своём зимнем доме, который расположен в самом сердце русской зимы — на Северном полюсе, среди вечных снегов и морозов. Здесь всегда холодно, но мне это по душе — ведь я сам и есть символ зимы! Мой дом окружён лесами, где снежинки танцуют в воздухе, а мои верные помощники — снежные зайцы и белые медведи — всегда готовы помочь мне.</p>
+                <p>Каждый год я готовлюсь к самому важному времени — к Новому году! В моей мастерской я и мои помощники изготавливаем подарки, пишем письма и проверяем список хороших и плохих мальчиков и девочек. Очень важно, чтобы все дети были добрыми, а их желания — искренними. Моя внучка Снегурочка помогает мне в этом.</p>
+                <p> Мы вместе со Снегурочкой раздаем подарки, и даже если где-то случается сильный мороз, мы с ней всегда находим способ согреть сердца детей своим вниманием и тепломТак что знай, я всегда здесь, в своём волшебном доме, готовлюсь к празднику и жду, когда смогу поздравить тебя с наступающим Новым годом! Желаю тебе много радости, улыбок и чудес в этом году!</p>
             </section>
-            <section class="img_part">
-                <h2>~~~~~ ~~~~~</h2>
-                <div><figcaption class="frame"></figcaption><img src="../img/i.webp" ></div>
-                <div><figcaption class="frame"></figcaption><img src="../img/ii.webp" ></div>
-                <div><figcaption class="frame"></figcaption><img src="../img/i.webp" ></div>
-                <div><figcaption class="frame"></figcaption><img src="../img/ii.webp" ></div>   
+            <section class="img_part" id="photo">
+                <h2>Фото</h2>
+                <div><figcaption class="frame"></figcaption><img src="./img/2147949908.jpg" ></div>
+                <div><figcaption class="frame"></figcaption><img src="./img/2147949932.jpg" ></div>
+                <div><figcaption class="frame"></figcaption><img src="./img/2150977044.jpg" ></div>
+                <div><figcaption class="frame"></figcaption><img src="./img/rb_2148792881.png" ></div>   
             </section>
         </main>
-        <aside>
+        <aside id="sv">
             <form action=""> 
-            <p><span class="label">Регистрация:</span></p>
+            <p><span class="label">Напишите мне письмо:</span></p>
 
             <p><label class="label" for="fam">Имя:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input type="text" name="fio" id="fam"></p>
@@ -54,37 +53,34 @@
         
             <p><label class="label" for="age">Возраст:&nbsp;&nbsp;</label>
             <input type="text" id="age"></p>
-       
-            <span class="label">Пол:</span>
-            <label><input type="checkbox" name="men">Мужской</label>
-            <label><input type="checkbox" name="women">Женский</label>
+			 <div class="inf">
+            	<span class="label">Пол:</span>
+            	<label><input type="checkbox" name="men">Мужской</label>
+            	<label><input type="checkbox" name="women">Женский</label>
+				</div>
             </form>
 
-            <h2>~~~~~ ~~~~~</h2>
+            <h2>Кто мы такие?</h2>
             <article>
-               <figure><img src="../img/iiii.webp" alt="">
-                       <figcaption>~~~~~~~
+               <figure><img src="./img/снегурочка.png" alt="">
+                       <figcaption>Снегурочка
                         <ul>
-                            <li>~~~~~</li>
-                            <li>~~~~~</li>
-                            <li>~~~~~</li>
-                            <li>~~~~~</li>
-                            <li>~~~~~</li>
+							<li>Меня зовут Снегурочка, я внучка Деда Мороза и его верная помощница в делах новогоднего волшебства.</li>
+							<li>Я живу в зимнем лесу, где танцую среди снегов и дружу с лесными зверями.</li>
+							
                         </ul>
                         </figcaption></figure>
-                       <figure><img src="../img/iiii.webp" alt="">
-                        <figcaption>~~~~~~~
+                       <figure><img src="./img/дед.png" alt="">
+                        <figcaption>Дед Мороз
                             <ul>
-                                <li>~~~~~</li>
-                                <li>~~~~~</li>
-                                <li>~~~~~</li>
-                                <li>~~~~~</li>
-                                <li>~~~~~</li>
+                                <li>Я — Дед Мороз, зимний волшебник, который каждый год приносит счастье и подарки в новогоднюю ночь.</li>
+								<li>Мой дом находится в заснеженном лесу, где снег искрится на солнце, а мороз щиплет за нос.</li>
+								
                         </ul></figcaption></figure>
             </article>
         </aside>
-        <footer>
-            <h4>Yana Black, 1-4, тел: +375-44-538-86-10</h4>
+        <footer id="os">
+            <h4>Макаревич Кирилл 1-10 ПИ </h4>
         </footer>
     </div>
 </body>

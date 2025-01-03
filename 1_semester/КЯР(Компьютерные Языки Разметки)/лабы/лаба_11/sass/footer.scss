@@ -1,0 +1,13 @@
+@import "_variables";
+footer{
+	background: $ngt;
+    padding-left: 5px;
+    margin-top: 5px;
+    flex: 1 1 100%;
+    color: rgb(216, 21, 21);
+    background-size: cover;
+	height: auto;
+	h4{
+		margin: 2px;
+	}
+}

@@ -1,0 +1,63 @@
+@import "_mixin";
+@import "_function";
+@import "_variables";
+main{
+    flex: 2 1 500px;
+    .text_part{
+        @include flex;
+        align-items: stretch;
+        flex: 1 1 100%;
+        justify-content: space-evenly;
+        h2{
+           
+            background: $ngt;
+            @extend %forh;
+            font-size: text_size();
+			text-align: center;
+        }
+        p{
+            background: $ngt ;
+            min-height: 170px ;
+            font-size: text_size()-30%;
+            text-align: center;
+            flex-basis: 30%;
+            border: $border;
+            color: rgb(216, 21, 21);
+            padding-top: 20px;
+        }
+        @media (max-width: 816px){
+           h2{
+            padding-left: 0px;
+           }     
+        }
+    }
+    .img_part{
+        @include flex;
+        align-items: stretch;
+        align-content: flex-start;
+        justify-content: space-evenly;
+        h2{
+            
+            height: auto;
+            background: $ngt;
+			text-align: center;
+            @extend %forh;
+        }
+        div{
+            margin-top: 15px;
+            overflow: hidden;
+            position: relative;
+            width: 200px;
+            white-space: nowrap;          
+            img{    
+                height: 150px;
+                width: 200px;
+            }
+        }
+        @media (max-width: 816px){
+            h2{
+             padding-left: 0px;
+            }     
+         }
+    }
+}
