@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema"> 
+<xs:element name="one">
+<xs:complexType>
+<xs:sequence>
+    <xs:element name="headd">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="titlee" type="xs:string"/>
+        <xs:element name="scrip" type="xs:string"/>
+		<xs:element name="money" type="xs:string"/>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    <xs:element name="tovar" maxOccurs="unbounded">
+    <xs:complexType>
+    <xs:sequence>
+       <xs:element name="name" type="xs:string"/>
+        <xs:element name="description" type="xs:string"/>
+		<xs:element name="price" type="xs:string"/>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

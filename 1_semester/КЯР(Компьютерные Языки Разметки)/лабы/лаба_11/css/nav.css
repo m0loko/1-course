@@ -79,7 +79,7 @@ nav ul li a {
   padding: 7px 24px 10px 24px;
   width: 80%;
   height: 35px;
-  font-size: 18px;
+  font-size: 70px;
   text-align: center;
   display: inline-block;
   text-decoration: none;
@@ -94,7 +94,7 @@ nav ul li a:hover {
   background: linear-gradient(to right, #ffffff, #cce7ff, #1e90ff, #000080);
   color: rgb(253, 253, 253);
 }
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   nav {
     height: 100%;
     margin-bottom: 50px;
