@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./one.xsl"?>
+
+<one>
+	<headd>
+        <titlee>Название товара</titlee>
+		<scrip>Описание товара</scrip>
+        <money>Цена</money>
+	</headd>
+
+  <tovar>
+    <name>Ноутбук</name>
+    <description>Мощный ноутбук для работы и игр.</description>
+    <price>50000</price>
+  </tovar>
+
+  <tovar>
+    <name>Смартфон</name>
+    <description>Смартфон с отличной камерой и производительностью.</description>
+    <price>25000</price>
+  </tovar>
+
+  <tovar>
+    <name>Наушники</name>
+    <description>Беспроводные наушники с хорошим звуком.</description>
+    <price>5000</price>
+  </tovar>
+
+  <tovar>
+    <name>Клавиатура</name>
+    <description>Механическая клавиатура с RGB-подсветкой.</description>
+    <price>3500</price>
+  </tovar>
+
+  <tovar>
+    <name>Монитор</name>
+    <description>Монитор с разрешением 4K и хорошими углами обзора.</description>
+    <price>15000</price>
+  </tovar>
+</one>
+
+
+

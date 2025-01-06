@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+</head>
+<body>
+    <svg class="svg1" xmlns="http://www.w3.org/2000/svg" version="1.1"
+	width="1400" height="400">
+ <path id="textpath" d="M100,200 C700,400 300,100 500,50 S800,50 1500,250 "
+ stroke="red" stroke-width="2" fill="none" />
+ <text  font-size="36px" fill="green" text-anchor="middle"> <!-- выравниваю текст относительно центра-->
+    <textPath xlink:href="#textpath" startOffset="50%"> <!-- текст начинается с центра-->
+		Текст расположить по центру, выделить произвольным цветом
+    </textPath>
+</text>
+</svg>
+
+<svg width="160" height="160">
+        <circle r="65" cx="85" cy="85"
+          fill="blue" stroke="blue" stroke-width="1"
+        />
+      </svg>
+      <svg width="160" height="140">
+        <rect x="5" y="5" width="140" height="120"
+          fill="red" stroke="red" stroke-width="5"
+        />
+      </svg>
+      <svg width="230" height="140">
+        <ellipse rx="110" ry="60" cx="115" cy="70"
+          fill="green" stroke="green" stroke-width="5"
+        />
+      </svg>
+      <svg width="230" height="140">
+        <polygon points="25,115 115,15 205,115"
+          fill="yellow" stroke="yellow" stroke-width="5"
+        />
+      </svg>
+	  <svg class="line"width="1060" height="200">
+        <polyline
+        points="5,20 400,20 300,75 800,75 "
+        fill="none" stroke="purple" stroke-width="3"/>
+      </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="480" height="270">
+        <polygon class="st0" points="235,40 175,115 213,115 163,188 250,188 250,213 220,213 220,188 313,188 256,115 300,115 " fill="green" stroke="black"/>
+		<path d="M210,80 A2,2 0 1,0 220,100 A2,2 0 1,0 210,80">
+			<animate attributeName="fill" values="red;yellow;green" repeatCount="indefinite" dur="1s" />
+		</path>
+		<path d="M270,160 A2,2 0 1,0 280,180 A2,2 0 1,0 270,160">
+			<animate attributeName="fill" values="red;yellow;green" repeatCount="indefinite" dur="1s" />
+		</path>
+		<path d="M200,160 A2,2 0 1,0 210,180 A2,2 0 1,0 200,160">
+			<animate attributeName="fill" values="red;yellow;green" repeatCount="indefinite" dur="1s" />
+		</path>
+    </svg>
+</body>
+
+
+
+
+
