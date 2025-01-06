@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./two.xsl"?>
+<atestat>
+
+    <info>
+        <surname>Аксенов</surname>
+        <opi>3</opi>
+        <belaz>5</belaz>
+        <angl>4</angl>
+    </info>
+
+    <info>
+         <surname>Бакуменко</surname>
+        <opi>9</opi>
+        <belaz>6</belaz>
+        <angl>6</angl>
+    </info>
+
+    <info>
+        <surname>Блющ</surname>
+        <opi>6</opi>
+        <belaz>7</belaz>
+        <angl>8</angl>
+    </info>
+
+    <info>
+        <surname>Бразовский</surname>
+        <opi>9</opi>
+        <belaz>7</belaz>
+        <angl>7</angl>
+    </info>
+
+    <info>
+       <surname>Волчёк</surname>
+        <opi>4</opi>
+        <belaz>2</belaz>
+        <angl>7</angl>
+    </info>
+
+    <info>
+        <surname>Волчек</surname>
+        <opi>4</opi>
+        <belaz>7</belaz>
+        <angl>7</angl>
+    </info>
+
+    <info>
+       <surname>Глезов</surname>
+        <opi>4</opi>
+        <belaz>6</belaz>
+        <angl>7</angl>
+    </info>
+
+    <info>
+       <surname>Громыко</surname>
+        <opi>8</opi>
+        <belaz>5</belaz>
+        <angl>7</angl>
+    </info>
+
+	<info>
+       <surname>Дольников</surname>
+        <opi>10</opi>
+        <belaz>7</belaz>
+        <angl>6</angl>
+    </info>
+
+	<info>
+       <surname>Евчук</surname>
+        <opi>8</opi>
+        <belaz>8</belaz>
+        <angl>9</angl>
+    </info>
+
+	<info>
+       <surname>Езерский</surname>
+        <opi>10</opi>
+        <belaz>8</belaz>
+        <angl>7</angl>
+    </info>
+
+	<info>
+       <surname>Ермолинский</surname>
+        <opi>9</opi>
+        <belaz>6</belaz>
+        <angl>8</angl>
+    </info>
+
+	<info>
+       <surname>Загнетова</surname>
+        <opi>4</opi>
+        <belaz>6</belaz>
+        <angl>6</angl>
+    </info>
+
+	<info>
+       <surname>Кириленко</surname>
+        <opi>8</opi>
+        <belaz>7</belaz>
+        <angl>5</angl>
+    </info>
+</atestat>
