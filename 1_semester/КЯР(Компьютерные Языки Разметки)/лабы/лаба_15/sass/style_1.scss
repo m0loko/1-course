@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+
+    figure {
+        margin: 10px;
+        position: relative;
+        width: 300px; 
+        text-align:center;
+      
+        img {
+            width: 100%;
+            border-radius: 10px; 
+        }
+        p {
+			margin: 0;
+            width: 100%;
+            font-size: 30px;
+            color: red;
+            border-radius: 10px;
+            display: none; 
+			border: 1px solid black;
+			height: 100%;
+        }
+    }
+}
