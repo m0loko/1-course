@@ -1,0 +1,29 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container figure {
+  margin: 10px;
+  position: relative;
+  width: 300px;
+  text-align: center;
+}
+.container figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+.container figure p {
+  margin: 0;
+  width: 100%;
+  font-size: 30px;
+  color: red;
+  border-radius: 10px;
+  display: none;
+  border: 1px solid black;
+  height: 100%;
+}
