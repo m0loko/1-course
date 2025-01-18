@@ -18,12 +18,10 @@ img1.addEventListener("mouseleave", function () {
     }
 });
 
-
 img2.addEventListener("click", function(){
 	img2.style.outline = "10px solid red";
 
 })
-
 
 img3.addEventListener("mouseover", function(){
     img3.src = "./img/1.jpg"

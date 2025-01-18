@@ -19,10 +19,12 @@
             text-align: center;
             }
 		.four{ 
-			background-color: red; color: white; 
+			background-color: red; 
+			color: white; 
 			}
 		.eight{
-			background-color: green; color: white; 
+			background-color: green; 
+			color: white; 
 			}
     </style>
 	<body>
