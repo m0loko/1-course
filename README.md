@@ -16,5 +16,7 @@ This repository contains all my laboratory works, abstracts and assignments from
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg" title="GIT" alt="GIT" width="40" height="40"/>    
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" title="SASS" alt="SASS" width="40" height="40"/>   
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg"  title="XML" alt="XML" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" title="JS" alt="JS" width="40" height="40"/>
+          
 </div>
 
