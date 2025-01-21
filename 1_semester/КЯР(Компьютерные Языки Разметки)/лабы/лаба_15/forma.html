@@ -9,81 +9,85 @@
 <body>
     <form id="studentForm" class="student-form">
         <h2>Данные студента</h2>
-        <label for="name">
-            Имя студента
+
+        <p>
+            <label for="name">Имя студента:</label>
             <input id="name" name="name" type="text" placeholder="обязательно заполнить">
-        </label>
+        </p>
 
-        <label for="surname">
-            Отчество студента
+        <p>
+            <label for="surname">Отчество студента:</label>
             <input id="surname" name="surname" type="text" placeholder="обязательно заполнить">
-        </label>
+        </p>
 
-        <label for="secname">
-            Фамилия студента
+        <p>
+            <label for="secname">Фамилия студента:</label>
             <input id="secname" name="secname" type="text" placeholder="обязательно заполнить">
-        </label>
+        </p>
 
-        <label for="email">
-            Адрес почты
+        <p>
+            <label for="email">Адрес почты:</label>
             <input id="email" name="email" type="email" placeholder="bstu@gmail.com">
-        </label>
+        </p>
 
-        <label for="phone">
-            Контактный номер
+        <p>
+            <label for="phone">Контактный номер:</label>
             <input id="phone" name="phone" type="tel" placeholder="+375(44)0000000">
-        </label>
-		<label class="soc">Какие соцсети вы используете?</label>
-        <div class="checkboxes">
-            <label><input type="checkbox" value="VK"> VK</label>
-            <label><input type="checkbox" value="Facebook"> Facebook</label>
-            <label><input type="checkbox" value="Instagram"> Instagram</label>
-	</div>
-	
-        <label for="faculty">
-            Факультет
+        </p>
+
+        <p>
+            <label class="soc">Какие соцсети вы используете?</label>
+            <div class="checkboxes">
+                <label><input type="checkbox" value="VK"> VK</label>
+                <label><input type="checkbox" value="Facebook"> Facebook</label>
+                <label><input type="checkbox" value="Instagram"> Instagram</label>
+            </div>
+        </p>
+
+        <p>
+            <label for="faculty">Факультет:</label>
             <select id="faculty" name="faculty">
                 <option value="ФИТ">ФИТ</option>
                 <option value="ХТИТ">ХТИТ</option>
                 <option value="ТОВ">ТОВ</option>
-				<option value="ИЭФ">ИЭФ</option>
-				<option value="ЛХФ">ЛХФ</option>
+                <option value="ИЭФ">ИЭФ</option>
+                <option value="ЛХФ">ЛХФ</option>
             </select>
-        </label>
+        </p>
 
-        <label for="group">
-            Группа
+        <p>
+            <label for="group">Группа:</label>
             <select id="group" name="group">
-               <option value="1">1</option>
-			   <option value="2">2</option>
-			   <option value="3">3</option>
-			   <option value="4">4</option>
-			   <option value="5">5</option>
-			   <option value="6">6</option>
-			   <option value="7">7</option>
-			   <option value="8">8</option>
-			   <option value="9">9</option>
-			   <option value="10">10</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
             </select>
-        </label>
+        </p>
 
-        <label for="course">
-            Курс
+        <p>
+            <label for="course">Курс:</label>
             <select id="course" name="course">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
             </select>
-        </label>
-	
+        </p>
 
-
-        <button type="button" id="submitButton">Отправить</button>
+        <p>
+            <button type="button" id="submitButton">Отправить</button>
+        </p>
     </form>
 
     <footer id="output" class="output"></footer>
 
-    <script src="./scripts/two_2.js	"></script>
+    <script src="./scripts/two_2.js"></script>
 </body>
 </html>

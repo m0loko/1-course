@@ -12,7 +12,6 @@ form h2 {
   text-align: center;
   color: #333;
   margin-bottom: 20px;
-  font-family: Arial, sans-serif;
 }
 form label {
   display: -webkit-box;
@@ -23,7 +22,6 @@ form label {
           align-items: center;
   padding: 10px 20% 10px 10px;
   font-size: 14px;
-  font-family: Arial, sans-serif;
   color: #555;
 }
 form label input, form label select {
@@ -33,12 +31,6 @@ form label input, form label select {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 30%;
-}
-form input[type=email] {
-  margin-left: 42px;
-}
-form #name {
-  margin-left: 37px;
 }
 form input[type=text],
 form input[type=email],
@@ -71,7 +63,7 @@ form .checkboxes {
 }
 form button[type=button] {
   display: block;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px 20px;
   background-color: #007bff;
   border: none;
