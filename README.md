@@ -8,6 +8,19 @@
 <p>
 This repository contains all my laboratory works, abstracts and assignments from the first year of study in the specialty “Software Engineering” at the Belarusian State Technological University (BSTU).</p>
 
+--------------------------------------------
+How to download a folder from GitHub:
+
+Copy the folder URL (for example: https://github.com/m0loko/one/tree/main/two)
+
+Add to the beginning: https://download-directory.github.io/?url=
+
+Follow the resulting link:
+https://download-directory.github.io/?url=https://github.com/m0loko/one/tree/main/two
+
+Download the ZIP archive with the desired folder
+
+--------------------------------------------
 ### :hammer_and_wrench: Languages and Tools :
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS" alt="CSS" width="40" height="40"/>
