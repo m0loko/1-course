@@ -1,27 +1,24 @@
 <div align="center">
 
-<p>█───█─████─█───████─█──█─████─────█─████─████─█─█─████─███─███  
-██─██─█──█─█───█──█─█─█──█──█────██─█──█─█──█─█─█─█──█─█───█──  
-█─█─█─█──█─█───█──█─██───█──█─────█─█────█──█─█─█─████─███─███  
-█───█─█──█─█───█──█─█─█──█──█─────█─█──█─█──█─█─█─█─█────█─█──  
-█───█─████─███─████─█──█─████─────█─████─████─███─█─█──███─███</p>
+<h1>BSTU · 1st year · Software Engineering</h1>
 
 <p>
 This repository contains my first-year laboratory work, abstracts, and assignments  
-for the <b>“Software Engineering”</b> program at the <b>Belarusian State Technological University (BSTU)</b>.
+for the <b>“Software Engineering”</b> program at the  
+<b>Belarusian State Technological University (BSTU)</b>.
 </p>
 
 ---
 
-### 📂 How to download a specific folder from this repo
+### 📂 How to download a specific folder
 
-1. Copy the folder URL (for example:  
-   `https://github.com/m0loko/one/tree/main/two`)
-2. Add this prefix to the beginning:  
+1. Copy the folder URL, for example:  
+   `https://github.com/m0loko/one/tree/main/two`
+2. Add this prefix in front:  
    `https://download-directory.github.io/?url=`
-3. Open the resulting link in your browser, for example:  
+3. Open the combined link in your browser:  
    `https://download-directory.github.io/?url=https://github.com/m0loko/one/tree/main/two`
-4. Download the generated ZIP archive with the selected folder.
+4. Download the generated ZIP archive with that folder.
 
 ---
 
